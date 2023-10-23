@@ -1,6 +1,6 @@
 .hero {
 	flex-direction: column;
-	background: var(--black-bg-gradient);
+	background: var(--blue-bg-gradient);
 }
 
 .hero__content {
@@ -40,7 +40,7 @@
 
 .title--m {
 	display: inline-block;
-	transform: translate(-57px, 275px);
+	transform: translate(-57px, 290px);
 	z-index: 3;
 }
 
