@@ -10,28 +10,31 @@
 		<link rel="icon" type="image/x-icon" href="images/logo.svg" />
 	</head>
 	<body>
+		<header class="header">
+			<div class="header__wrapper">
+				<a href="#" class="logo"><img src="images/logo.svg" alt="logo" /></a>
+
+				<nav class="menu">
+					<ul class="menu__list flex-center">
+						<li class="menu__item">
+							<a href="#" class="menu__link">Info</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Product</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Contacts</a>
+						</li>
+						<li class="menu__item">
+							<button class="menu__btn" href="#">BUY</button>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
 		<section class="hero">
 			<div class="container flex-center">
-				<header class="header flex-between">
-					<a href="#" class="logo"><img src="images/logo.svg" alt="logo" /></a>
-
-					<nav class="menu">
-						<ul class="menu__list flex-center">
-							<li class="menu__item">
-								<a href="#" class="menu__link">Info</a>
-							</li>
-							<li class="menu__item">
-								<a href="#" class="menu__link">Product</a>
-							</li>
-							<li class="menu__item">
-								<a href="#" class="menu__link">Contacts</a>
-							</li>
-							<li class="menu__item">
-								<button class="menu__btn" href="#">BUY</button>
-							</li>
-						</ul>
-					</nav>
-				</header>
 				<div class="hero__content">
 					<h1 class="hero__title">
 						<span class="title--air">Air</span
@@ -40,27 +43,27 @@
 					</h1>
 					<div class="hero__content-images flex-center">
 						<img
-							src="images/blue-headphones.png"
+							src="images/full-size/blue-headphones.png"
 							alt="headphones preview"
 							class="hero__image"
 						/>
 						<!-- <img
-					src="images/black-headphones.png"
+					src="images/full-size/black-headphones.png"
 					alt="headphones preview"
 					class="hero__image"
 				/>
 				<img
-					src="images/green-headphones.png"
+					src="images/full-size/green-headphones.png"
 					alt="headphones preview"
 					class="hero__image"
 				/>
 				<img
-					src="images/red-headphones.png"
+					src="images/full-size/red-headphones.png"
 					alt="headphones preview"
 					class="hero__image"
 				/>
 				<img
-					src="images/white-headphones.png"
+					src="images/full-size/white-headphones.png"
 					alt="headphones preview"
 					class="hero__image"
 				/> -->
@@ -79,34 +82,78 @@
 				<div class="colors__list flex-center">
 					<!-- <button class="colors__list--btn">
 						<img
-							src="images/small-headphones/blue-btn.png"
+							src="images/small/blue-btn.png"
 							alt="headphones image"
 						/>
 					</button> -->
 					<button class="colors__list--btn">
-						<img
-							src="images/small-headphones/black-btn.png"
-							alt="headphones image"
-						/>
+						<img src="images/small/black-btn.png" alt="headphones image" />
 					</button>
 					<button class="colors__list--btn">
-						<img
-							src="images/small-headphones/green-btn.png"
-							alt="headphones image"
-						/>
+						<img src="images/small/green-btn.png" alt="headphones image" />
 					</button>
 					<button class="colors__list--btn">
-						<img
-							src="images/small-headphones/red-btn.png"
-							alt="headphones image"
-						/>
+						<img src="images/small/red-btn.png" alt="headphones image" />
 					</button>
 					<button class="colors__list--btn">
-						<img
-							src="images/small-headphones/white-btn.png"
-							alt="headphones image"
-						/>
+						<img src="images/small/white-btn.png" alt="headphones image" />
 					</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="composition">
+			<div class="container">
+				<h2 class="composition__title main__title">
+					An extremely original composition.
+				</h2>
+				<p class="composition__text">
+					Introducing the reinvention of over-the-ear headphones. From the
+					cushion to the headband, the AirPods Max are designed with acoustic
+					insulation in mind, adapted to many head shapes, so you can immerse
+					yourself in the purity of sound.
+				</p>
+				<div class="composition__inner">
+					<div class="composition__inner--text">
+						<p>
+							The headband is made of breathable mesh, distributing the weight
+							to reduce pressure on the head.
+						</p>
+						<p>
+							The stainless steel structure is wrapped in a soft-touch material
+							to provide a remarkable harmony between resistance, flexibility
+							and comfort.
+						</p>
+						<p>
+							The telescoping arms expand and stay in any position you want,
+							allowing you to maintain fit and isolation.
+						</p>
+					</div>
+					<img
+						class="composition__inner--img"
+						src="images/sides/blue-side.jpg"
+						alt="side img"
+					/>
+					<!-- <img
+						class="composition__inner--img"
+						src="images/sides/red-side.jpg"
+						alt="side img"
+					/>
+					<img
+						class="composition__inner--img"
+						src="images/sides/black-side.png"
+						alt="side img"
+					/>
+					<img
+						class="composition__inner--img"
+						src="images/sides/green-side.png"
+						alt="side img"
+					/>
+					<img
+						class="composition__inner--img"
+						src="images/sides/white-side.jpg"
+						alt="side img"
+					/> -->
 				</div>
 			</div>
 		</section>

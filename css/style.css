@@ -3,6 +3,7 @@
 @import url('sections/hero.css');
 @import url('sections/header.css');
 @import url('sections/colors.css');
+@import url('sections/composition.css');
 
 :root {
 	--inter: 'Inter', sans-serif;
@@ -79,4 +80,20 @@ ul {
 	padding: 0 10px;
 	margin: 0 auto;
 	flex-direction: column;
+}
+
+.header__wrapper {
+	max-width: 1220px;
+	width: 100%;
+	padding: 0 10px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main__title {
+	font-size: 64px;
+	font-weight: 700;
+	margin-bottom: 20px;
 }

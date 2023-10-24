@@ -1,4 +1,6 @@
 .header {
+	position: absolute;
+	top: 0;
 	font-size: 16px;
 	font-weight: 700;
 
