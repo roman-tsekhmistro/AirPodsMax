@@ -13,15 +13,6 @@
 }
 
 .menu__btn {
-	padding: 15px 58px;
-	gap: 10px;
-
-	border-radius: 30px;
 	background-color: #000;
-
-	text-transform: uppercase;
 	color: #fff;
-	font-weight: 700;
-
-	cursor: pointer;
 }

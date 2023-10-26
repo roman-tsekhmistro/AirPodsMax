@@ -1,0 +1,33 @@
+.audio {
+	position: relative;
+	background-image: url('../../images/guy.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+
+.audio__inner {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+
+	min-height: 220vh;
+}
+
+.audio__box {
+	color: #f1f1f1;
+	text-align: center;
+	padding-bottom: 30vh;
+}
+
+.audio__text {
+	font-weight: 500;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.audio__btn {
+	color: #000;
+	background-color: #fff;
+	margin-top: 25px;
+}
