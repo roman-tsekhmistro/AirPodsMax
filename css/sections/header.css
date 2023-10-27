@@ -8,6 +8,16 @@
 	width: 100%;
 }
 
+.header__wrapper {
+	max-width: 1220px;
+	width: 100%;
+	padding: 0 10px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .menu__list {
 	gap: 0 40px;
 }
@@ -15,4 +25,25 @@
 .menu__btn {
 	background-color: #000;
 	color: #fff;
+}
+
+@media (max-width: 560px) {
+	.header__wrapper {
+		align-items: flex-start;
+	}
+	.menu__list {
+		flex-wrap: wrap;
+		gap: 20px 40px;
+	}
+
+	.menu__item:first-child {
+		margin-left: auto;
+	}
+
+	.menu__item--btn,
+	.menu__btn {
+		font-size: 14px;
+		margin-left: auto;
+		width: 200px;
+	}
 }

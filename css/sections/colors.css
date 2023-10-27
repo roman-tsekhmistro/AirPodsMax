@@ -27,3 +27,39 @@
 	border-radius: 20px;
 	border: 1px solid#777;
 }
+
+@media (max-width: 1200px) {
+	.colors__list {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 768px) {
+	.colors {
+		padding-bottom: 60px;
+	}
+
+	.colors__subtitle {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 560px) {
+	.colors {
+		margin-bottom: 0;
+	}
+
+	.colors__list {
+		gap: 15px;
+	}
+
+	.colors__list--btn {
+		padding: 35px;
+	}
+}
+
+@media (max-width: 414px) {
+	.colors__title {
+		font-size: 28px;
+	}
+}

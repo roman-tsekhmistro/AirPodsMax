@@ -31,3 +31,17 @@
 	background-color: #fff;
 	margin-top: 25px;
 }
+
+@media (max-width: 414px) {
+	.audio {
+		height: 100vh;
+	}
+
+	.audio__inner {
+		min-height: 100vh;
+	}
+
+	.audio__box {
+		padding-bottom: 25vh;
+	}
+}

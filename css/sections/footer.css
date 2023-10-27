@@ -16,5 +16,21 @@
 
 .footer__list {
 	padding-top: 80px;
-	gap: 0 20px;
+	gap: 20px;
+}
+
+@media (max-width: 768px) {
+	.footer__list {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 414px) {
+	.footer {
+		font-size: 12px;
+	}
+
+	.footer__list {
+		padding-top: 30px;
+	}
 }
