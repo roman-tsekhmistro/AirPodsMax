@@ -22,6 +22,14 @@
 	justify-content: space-between;
 }
 
+.composition__inner--img {
+	display: none;
+}
+
+.composition__inner--img.composition__inner--img--active {
+	display: inline-block;
+}
+
 .composition__inner--text {
 	display: flex;
 	flex-direction: column;

@@ -12,6 +12,14 @@
 	padding-top: 126px;
 }
 
+.hero__image {
+	display: none;
+}
+
+.hero__image.hero__image--active {
+	display: inline-block;
+}
+
 .hero__title {
 	position: absolute;
 	display: flex;

@@ -28,6 +28,10 @@
 	border: 1px solid#777;
 }
 
+.colors__list--btn.colors__list--btn--active {
+	display: none;
+}
+
 @media (max-width: 1200px) {
 	.colors__list {
 		flex-wrap: wrap;
