@@ -26,8 +26,6 @@ const imagesObj = {
 	},
 };
 
-//! СДЕЛАТЬ СМЕНА БГы
-
 const bgColorsObj = {
 	red: 'linear-gradient(180deg,#f3d6d1 0%,rgba(235, 235, 235, 0) 100%)',
 	blue: 'linear-gradient(180deg,#cadbeb 0%,rgba(235, 235, 235, 0) 100%)',
