@@ -1,28 +1,28 @@
 const imagesObj = {
 	blue: {
-		heroImg: '../images/full-size/blue.png',
-		sideImg: '../images/sides/blue.jpg',
-		smartCaseImg: '../images/case/blue.jpg',
+		heroImg: 'images/full-size/blue.png',
+		sideImg: 'images/sides/blue.jpg',
+		smartCaseImg: 'images/case/blue.jpg',
 	},
 	red: {
-		heroImg: '../images/full-size/red.png',
-		sideImg: '../images/sides/red.jpg',
-		smartCaseImg: '../images/case/red.jpg',
+		heroImg: 'images/full-size/red.png',
+		sideImg: 'images/sides/red.jpg',
+		smartCaseImg: 'images/case/red.jpg',
 	},
 	green: {
-		heroImg: '../images/full-size/green.png',
-		sideImg: '../images/sides/green.png',
-		smartCaseImg: '../images/case/green.jpg',
+		heroImg: 'images/full-size/green.png',
+		sideImg: 'images/sides/green.png',
+		smartCaseImg: 'images/case/green.jpg',
 	},
 	black: {
-		heroImg: '../images/full-size/black.png',
-		sideImg: '../images/sides/black.png',
-		smartCaseImg: '../images/case/black.jpg',
+		heroImg: 'images/full-size/black.png',
+		sideImg: 'images/sides/black.png',
+		smartCaseImg: 'images/case/black.jpg',
 	},
 	white: {
-		heroImg: '../images/full-size/white.png',
-		sideImg: '../images/sides/white.jpg',
-		smartCaseImg: '../images/case/white.jpg',
+		heroImg: 'images/full-size/white.png',
+		sideImg: 'images/sides/white.jpg',
+		smartCaseImg: 'images/case/white.jpg',
 	},
 };
 
